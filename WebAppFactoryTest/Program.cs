@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using MT.WebApplicationFactory.Demo.IntegrationEvents.Events;
+using MT.WebApplicationFactory.Demo.IntegrationEvents.Services;
 
 namespace WebAppFactoryTest
 {

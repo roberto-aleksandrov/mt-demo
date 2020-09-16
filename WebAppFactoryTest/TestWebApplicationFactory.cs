@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using MT.WebApplicationFactory.Demo;
+using MT.WebApplicationFactory.Demo.IntegrationEvents.Services;
 
 namespace WebAppFactoryTest
 {

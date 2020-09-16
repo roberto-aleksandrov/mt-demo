@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using MassTransit;
 
-namespace WebAppFactoryTest
+namespace MT.WebApplicationFactory.Demo.IntegrationEvents.Services
 {
     public class IntegrationEventService
     {
