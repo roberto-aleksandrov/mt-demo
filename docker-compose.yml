@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  mt.webapplicationfactory.demo:
+    image: ${DOCKER_REGISTRY-}mtwebapplicationfactorydemo
+    build:
+      context: .
+      dockerfile: MT.WebApplicationFactory.Demo/Dockerfile
+    networks:
+      - app-tier
+      
+  rabbitmq:
+    image: 'bitnami/rabbitmq:3.8.3'
+    networks:
+      - app-tier
+      
+networks:
+  app-tier:
+    driver: bridge
